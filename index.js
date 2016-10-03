@@ -2,7 +2,7 @@
 
 const Promise = require('bluebird');
 const request = require('request');
-const Utils = require('@flywheelsports/jsutils');
+const Utils = require('fwsp-jsutils');
 
 /**
 * @name _pRequest
