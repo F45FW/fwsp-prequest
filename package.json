@@ -1,6 +1,6 @@
 {
   "name": "fwsp-prequest",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Promise-based Request",
   "author": {
     "name": "Carlos Justiniano",
@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "fwsp-jsutils": "1.0.8",
-    "bluebird": "3.4.1",
-    "request": "2.75.0"
+    "bluebird": "3.4.6",
+    "request": "2.76.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
