@@ -17,6 +17,7 @@
     "node": ">=6.2.1"
   },
   "main": "index.js",
+  "license": "MIT",  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flywheelsports/fwsp-prequest.git"
