@@ -12,7 +12,7 @@ describe('pRequest', () => {
       .then((response) => {
         expect(response).to.be.an('object');
         expect(response).to.have.property('full_name', 'cjus/umf');
-        expect(response).to.have.deep.property('owner.login', 'cjus');
+        expect(response).to.have.nested.property('owner.login', 'cjus');
         done();
       });
   });
